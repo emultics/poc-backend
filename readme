@@ -1,0 +1,32 @@
+#API endpoints
+
+calculate newforcast: ```/api/fcst/calculate```
+body
+```
+[
+    { "fcst": 84, "factors": 2 },
+    { "fcst": 51, "factors": 1 },
+    { "fcst": 54, "factors": 15 },
+    { "fcst": 81, "factors": 20 },
+    { "fcst": 64, "factors": 10 },
+    { "fcst": 51, "factors": 7 },
+    { "fcst": 56, "factors": 10 },
+    { "fcst": 75, "factors": 12 },
+    { "fcst": 97, "factors": 18 },
+    { "fcst": 74, "factors": 15 },
+    { "fcst": 69, "factors": 17 },
+    { "fcst": 84, "factors": 15 },
+    { "fcst": 62, "factors": 12 },
+    { "fcst": 76, "factors": 9 },
+    { "fcst": 81, "factors": 8 },
+    { "fcst": 66, "factors": 15 },
+    { "fcst": 64, "factors": 19 },
+    { "fcst": 63, "factors": 4 },
+    { "fcst": 51, "factors": 6 },
+    { "fcst": 53, "factors": 17 },
+    { "fcst": 73, "factors": 19 },
+    { "fcst": 100, "factors": 11 },
+    { "fcst": 53, "factors": 10 }
+]
+
+```
