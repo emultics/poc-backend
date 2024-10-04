@@ -1,7 +1,9 @@
-#API endpoints
+## API endpoints
 
-calculate newforcast: ```/api/fcst/calculate```
+calculate newforcast: `/api/fcst/calculate`
+
 body
+
 ```
 [
     { "fcst": 84, "factors": 2 },
@@ -29,4 +31,149 @@ body
     { "fcst": 53, "factors": 10 }
 ]
 
+```
+
+output
+
+```
+[
+    {
+        "fcst": 84,
+        "factors": 2,
+        "normalizedFactor": 0.007352941176470588,
+        "newForecast": 11.632352941176471
+    },
+    {
+        "fcst": 51,
+        "factors": 1,
+        "normalizedFactor": 0.003676470588235294,
+        "newForecast": 5.8161764705882355
+    },
+    {
+        "fcst": 54,
+        "factors": 15,
+        "normalizedFactor": 0.05514705882352941,
+        "newForecast": 87.24264705882352
+    },
+    {
+        "fcst": 81,
+        "factors": 20,
+        "normalizedFactor": 0.07352941176470588,
+        "newForecast": 116.32352941176471
+    },
+    {
+        "fcst": 64,
+        "factors": 10,
+        "normalizedFactor": 0.03676470588235294,
+        "newForecast": 58.161764705882355
+    },
+    {
+        "fcst": 51,
+        "factors": 7,
+        "normalizedFactor": 0.025735294117647058,
+        "newForecast": 40.713235294117645
+    },
+    {
+        "fcst": 56,
+        "factors": 10,
+        "normalizedFactor": 0.03676470588235294,
+        "newForecast": 58.161764705882355
+    },
+    {
+        "fcst": 75,
+        "factors": 12,
+        "normalizedFactor": 0.04411764705882353,
+        "newForecast": 69.79411764705883
+    },
+    {
+        "fcst": 97,
+        "factors": 18,
+        "normalizedFactor": 0.0661764705882353,
+        "newForecast": 104.69117647058823
+    },
+    {
+        "fcst": 74,
+        "factors": 15,
+        "normalizedFactor": 0.05514705882352941,
+        "newForecast": 87.24264705882352
+    },
+    {
+        "fcst": 69,
+        "factors": 17,
+        "normalizedFactor": 0.0625,
+        "newForecast": 98.875
+    },
+    {
+        "fcst": 84,
+        "factors": 15,
+        "normalizedFactor": 0.05514705882352941,
+        "newForecast": 87.24264705882352
+    },
+    {
+        "fcst": 62,
+        "factors": 12,
+        "normalizedFactor": 0.04411764705882353,
+        "newForecast": 69.79411764705883
+    },
+    {
+        "fcst": 76,
+        "factors": 9,
+        "normalizedFactor": 0.03308823529411765,
+        "newForecast": 52.345588235294116
+    },
+    {
+        "fcst": 81,
+        "factors": 8,
+        "normalizedFactor": 0.029411764705882353,
+        "newForecast": 46.529411764705884
+    },
+    {
+        "fcst": 66,
+        "factors": 15,
+        "normalizedFactor": 0.05514705882352941,
+        "newForecast": 87.24264705882352
+    },
+    {
+        "fcst": 64,
+        "factors": 19,
+        "normalizedFactor": 0.06985294117647059,
+        "newForecast": 110.50735294117648
+    },
+    {
+        "fcst": 63,
+        "factors": 4,
+        "normalizedFactor": 0.014705882352941176,
+        "newForecast": 23.264705882352942
+    },
+    {
+        "fcst": 51,
+        "factors": 6,
+        "normalizedFactor": 0.022058823529411766,
+        "newForecast": 34.89705882352941
+    },
+    {
+        "fcst": 53,
+        "factors": 17,
+        "normalizedFactor": 0.0625,
+        "newForecast": 98.875
+    },
+    {
+        "fcst": 73,
+        "factors": 19,
+        "normalizedFactor": 0.06985294117647059,
+        "newForecast": 110.50735294117648
+    },
+    {
+        "fcst": 100,
+        "factors": 11,
+        "normalizedFactor": 0.04044117647058824,
+        "newForecast": 63.977941176470594
+    },
+    {
+        "fcst": 53,
+        "factors": 10,
+        "normalizedFactor": 0.03676470588235294,
+        "newForecast": 58.161764705882355
+    }
+]
 ```
