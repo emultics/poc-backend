@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/fcst")
+@RequestMapping(RouteConstant.FORECAST_ROUTE)
 public class ForecastController {
 
     @Autowired
