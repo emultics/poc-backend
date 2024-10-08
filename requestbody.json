@@ -1,0 +1,28 @@
+{
+  "launch_date": "",
+  "create_as": "NEW_MEMBER",
+  "dimensions": {
+    "channel": null,
+    "item": {
+      "ref_attr": "item",
+      "target_attr": "item",
+      "ref_member": "Candy_200g",
+      "target_member": "Candy_200g",
+      "quantity": 1
+
+    },
+    "location": {
+      "ref_attr": "Country",
+      "ref_member": "USA",
+      "target_attr": "store",
+      "target_member": "texus"
+
+    },
+    "customer": {
+      "ref_attr": "customer",
+      "ref_member": "walmart",
+      "target_attr": "customer",
+      "target_member": "member"
+    }
+  }
+}
