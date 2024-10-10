@@ -4,6 +4,7 @@ import com.bycdp.demo.poc.model.FcstData;
 
 import java.util.List;
 
+@Deprecated
 public interface IFcstService {
     @Deprecated
     public List<FcstData> calculateNormalizedFactors(List<FcstData> dataSet);
