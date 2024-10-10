@@ -2,11 +2,11 @@ package com.bycdp.demo.poc.model;
 
 import lombok.Data;
 
-
+@Deprecated
 @Data
 public class FcstData {
-    private int fcst;
-    private int factors;
+    private double fcst;
+    private double factors;
     private double normalizedFactor;
     private double newForecast;
 
