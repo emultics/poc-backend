@@ -1,3 +1,8 @@
+# Swagger Url
+``
+http://localhost:5005/swagger-ui/index.html
+``
+
 ## Api endpoints
 
 ```
