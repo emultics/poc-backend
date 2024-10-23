@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Dimensions {
     private String channel;
-    private ItemMemberReference item;
+
     private List<MemberReference> memberReferences;
 }
