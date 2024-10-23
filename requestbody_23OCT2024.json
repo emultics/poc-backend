@@ -1,0 +1,49 @@
+{
+  "launch_date": "",
+  "create_as": "NEW_MEMBER",
+  "dimensions": {
+    "channel": null,
+    "member_ref": [
+      {
+        "dimension_name": "item",
+        "dimension_values": {
+          "ref_level": "item",
+          "ref_member": "Candy_200g",
+          "target_level": "item",
+          "target_member": "Candy_200g_copy",
+          "variant": "1 (For dimension_name - Item there should be always variant have value 1 or more than 1)"
+        }
+      },
+      {
+        "dimension_name": "location",
+        "dimension_values": {
+          "ref_level": "Country",
+          "ref_member": "USA",
+          "target_level": "Country",
+          "target_member": "USA",
+          "variant": "0 (For dimension_name other than Item the variant value should be ignored)"
+        }
+      },
+      {
+        "dimension_name": "customer",
+        "dimension_values": {
+          "ref_level": "customer",
+          "ref_member": "walmart",
+          "target_level": "customer",
+          "target_member": "Walmart",
+          "variant": "0 (For dimension_name other than Item the variant value should be ignored)"
+        }
+      },
+      {
+        "dimension_name": "XXX",
+        "dimension_values": {
+          "ref_level": "XXX",
+          "ref_member": "product_XXX",
+          "target_level": "XXX",
+          "target_member": "product_XXX",
+          "variant": "0 (For dimension_name other than Item the variant value should be ignored)"
+        }
+      }
+    ]
+  }
+}
