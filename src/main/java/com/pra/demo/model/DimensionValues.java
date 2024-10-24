@@ -1,4 +1,4 @@
-package com.demo.poc.pra.model;
+package com.pra.demo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
