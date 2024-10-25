@@ -1,5 +1,6 @@
 package com.pra.demo.controller;
 
+import com.pra.demo.model.LogicalModel;
 import com.pra.demo.model.RequestPayload;
 import com.pra.demo.service.LogicalModelService;
 import com.pra.demo.utils.DimensionValidator;
@@ -23,8 +24,9 @@ public class TestController {
     private DimensionValidator dimensionValidator;
 
     @GetMapping("/logical-model")
-    public Mono<String> fetchFromApi() {
-        return  logicalModelService.getLogicalModel();
+    public ResponseEntity<?> fetchFromApi() {
+        LogicalModel logicalModel = logicalModelService.getLogicalModel();
+        return  new ResponseEntity<>(logicalModel, HttpStatus.OK);
     }
 
     @GetMapping("/create-req")
