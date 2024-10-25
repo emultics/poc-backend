@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
+
 public class EqualityChecker {
     public static <T> boolean isEqual(T firstValue, T b){
         if(firstValue == null || b == null){
