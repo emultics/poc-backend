@@ -13,4 +13,6 @@ public class Dimensions {
     private String channel;
 
     private List<MemberReference> member_ref;
+    private int variant;
+
 }
