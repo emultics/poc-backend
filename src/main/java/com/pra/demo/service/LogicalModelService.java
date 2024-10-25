@@ -1,8 +1,8 @@
 package com.pra.demo.service;
 
-import reactor.core.publisher.Mono;
+import com.pra.demo.model.LogicalModel;
 
 public interface LogicalModelService {
-    public Mono<String> getLogicalModel();
+    public LogicalModel getLogicalModel();
 
 }
