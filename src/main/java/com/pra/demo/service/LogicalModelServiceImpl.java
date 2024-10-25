@@ -1,11 +1,9 @@
 package com.pra.demo.service;
 
 import com.bycdp.demo.poc.constant.RouteConstant;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.pra.demo.model.LogicalModel;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
