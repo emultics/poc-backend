@@ -12,5 +12,7 @@ import java.util.List;
 public class Dimensions {
     private String channel;
 
-    private List<MemberReference> memberReferences;
+    private List<MemberReference> member_ref;
+    private int variant;
+
 }
