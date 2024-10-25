@@ -12,4 +12,6 @@ public class MemberReference {
     private String dimension_name;
 
     private DimensionValues dimension_values;
+    private Boolean isModifiedDimensionRefLevel=false;
+    private Boolean isModifiedDimensionRefMember=false;
 }

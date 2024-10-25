@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CreateRequest {
+public class RequestPayload {
     private String launch_date;
 
     private String create_as;
